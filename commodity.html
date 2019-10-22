@@ -319,7 +319,7 @@
 <script>
 
   layui.config({
-    base: 'res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
+    base: '/res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
   }).use(['mm','laypage','jquery'],function(){
       const laypage = layui.laypage,$ = layui.$,
      mm = layui.mm;
@@ -335,7 +335,7 @@
      const listCont = document.getElementById('demo0');
      // console.log(layui.router("#/about.html"))
     mm.request({
-        url: 'static/json/commodity.json',
+        url: '/html/json/commodity.json',
         success : function(res){
           console.log(res);
           listCont.innerHTML = mm.renderHtml(html,res)
