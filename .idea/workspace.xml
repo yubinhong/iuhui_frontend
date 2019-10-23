@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3927705-6fa1-41a0-958d-dda95619db89" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/commodity.html" beforeDir="false" afterPath="$PROJECT_DIR$/commodity.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -57,7 +58,7 @@
       <workItem from="1571455808806" duration="44000" />
       <workItem from="1571455900171" duration="811000" />
       <workItem from="1571638492281" duration="4930000" />
-      <workItem from="1571708515118" duration="2361000" />
+      <workItem from="1571708515118" duration="5628000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1571728327874</created>
@@ -87,7 +88,21 @@
       <option name="project" value="LOCAL" />
       <updated>1571729940501</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix">
+      <created>1571730095368</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1571730095368</updated>
+    </task>
+    <task id="LOCAL-00006" summary="#debug">
+      <created>1571814493166</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1571814493166</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,6 +121,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="fix" />
+    <MESSAGE value="#debug" />
+    <option name="LAST_COMMIT_MESSAGE" value="#debug" />
   </component>
 </project>
