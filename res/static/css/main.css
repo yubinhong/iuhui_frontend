@@ -144,7 +144,7 @@ i{font-style: normal;}
 .commodity-content .commod-cont .right-cont .cont-list .title{color: #333333; font-size: 16px; margin-bottom: 14px;}
 .commodity-content .commod-cont .right-cont .cont-list .price{position: relative;}
 .commodity-content .commod-cont .right-cont .cont-list .pri{color: #ee0000;}
-.commodity-content .commod-cont .right-cont .cont-list .cou-pri{color: #ee0000;}
+.commodity-content .commod-cont .right-cont .cont-list .cou-pri{color: #ee0000; margin-bottom: 10px;}
 .commodity-content .commod-cont .right-cont .cont-list .nub{position: absolute; right: 13px; color:#999999;}
 /*end-commodity*/
 
