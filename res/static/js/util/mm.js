@@ -11,7 +11,7 @@ layui.define(['jquery','element','laytpl','carousel','laypage'],function(exports
 		request : function(param){
 			const _this = this;
 			$.ajax({
-				type   		: param.method || 'get',
+				type   		: param.method || 'post',
 				url    		: param.url    || '',
 				dataType 	: param.type || 'json',
 				data 		: param.data || '',

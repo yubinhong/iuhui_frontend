@@ -102,16 +102,16 @@
             </div>
             <!-- 模版引擎导入 -->
             <script type="text/html" id="demo">
-              {{# layui.each(d.menu.milk.content,function(index,item){}}
+              {{# layui.each(d.data,function(index,item){}}
                 <div class="item">
                   <div class="img">
-                    <a href="javascript:;"><img src="{{item.img}}"></a>
+                    <a href="{{item.coupons_url}}"><img src="{{item.image_url}}"></a>
                   </div>
                   <div class="text">
                     <p class="title"></p>
                     <p class="price">
-                      <span class="pri">{{item.pri}}</span>
-                      <span class="nub">{{item.nub}}</span>
+                      <span class="pri">{{item.price}}</span>
+                      <span class="nub">{{item.sales}}</span>
                     </p>
                   </div>
                 </div>
@@ -142,7 +142,8 @@
      const listCont = document.getElementById('list-cont');
      // console.log(layui.router("#/about.html"))
     mm.request({
-        url: '/html/json/commodity.json',
+        url: 'http://47.96.111.130:8000/commodity/',
+        method: 'post',
         success : function(res){
           console.log(res);
           listCont.innerHTML = mm.renderHtml(html,res)
