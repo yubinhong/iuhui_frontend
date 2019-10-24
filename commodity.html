@@ -125,7 +125,7 @@
     </div>
   </div>
 <script>
-  function renderpage(count,curr,limit,title){
+  function renderpage(count,curr,limit){
       const laypage = layui.laypage,mm = layui.mm;
       const demo = document.getElementById('demo');
       const html = demo.innerHTML;
@@ -142,7 +142,7 @@
                   mm.request({
                       url: 'http://47.96.111.130:8000/commodity/',
                       method: 'post',
-                      data: {limit:obj.limit, page:obj.curr, search: title},
+                      data: {limit:obj.limit, page:obj.curr},
                       success : function(res){
                           listCont.innerHTML = mm.renderHtml(html,res)
                       },
@@ -171,7 +171,7 @@
               data: {'search':search_data.field.title},
               success : function(res){
                   listCont.innerHTML = mm.renderHtml(html,res);
-                  renderpage(res.count,res.page,res.limit,search_data.field.title);
+                  // renderpage(res.count,res.page,res.limit,search_data.field.title);
               },
               error: function(res){
                   console.log(res);
@@ -185,7 +185,7 @@
         method: 'post',
         success : function(res){
           listCont.innerHTML = mm.renderHtml(html,res);
-          renderpage(res.count,res.page,res.limit,'');
+          renderpage(res.count,res.page,res.limit);
 
         },
         error: function(res){
