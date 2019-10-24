@@ -109,7 +109,7 @@
                   </div>
                   <div class="text">
                     <a href="{{item.tbk_url}}"><p class="title">{{item.cname}}</p></a>
-                    <a href="{{item.coupons_url}}"><p class="cou-pri">{{item.coupons_price}}</p></a>
+                    <a href="{{item.coupons_url}}"><p class="cou-pri">领券：{{item.coupons_price}}</p></a>
                     <p class="price">
                       <span class="pri">价格：¥{{item.price}}</span>
                       <span class="nub">月销量：{{item.sales}}</span>
@@ -125,16 +125,41 @@
     </div>
   </div>
 <script>
+  function renderpage(count,curr,limit){
+      const laypage = layui.laypage,mm = layui.mm;
+      const demo = document.getElementById('demo');
+      const html = demo.innerHTML;
+      const listCont = document.getElementById('list-cont');
+      laypage.render({
+          elem: 'demo0'
+          ,count: count
+          ,limit: limit
+          ,curr: curr
+          ,limits: [60,120,240,300]
+          ,layout: ['count', 'prev', 'page', 'next', 'limit']
+          ,jump: function(obj, first){
+              if(!first){
+                  mm.request({
+                      url: 'http://47.96.111.130:8000/commodity/',
+                      method: 'post',
+                      data: {limit:obj.limit, page:obj.curr}
+                      success : function(res){
+                          listCont.innerHTML = mm.renderHtml(html,res)
+                      },
+                      error: function(res){
+                          console.log(res);
+                      }
+                  });
+              }
 
+          }
+      });
+  }
   layui.config({
     base: '/res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
   }).use(['mm','laypage','jquery'],function(){
       const laypage = layui.laypage,$ = layui.$,
      mm = layui.mm;
-       laypage.render({
-        elem: 'demo0'
-        ,count: 100 //数据总数
-      });
 
 
     //模版引擎导入
@@ -146,8 +171,9 @@
         url: 'http://47.96.111.130:8000/commodity/',
         method: 'post',
         success : function(res){
-          console.log(res);
-          listCont.innerHTML = mm.renderHtml(html,res)
+          listCont.innerHTML = mm.renderHtml(html,res);
+          renderpage(res.count,res.page,res.limit);
+
         },
         error: function(res){
           console.log(res);
