@@ -36,7 +36,7 @@
         </h1>
         <div class="mallSearch">
           <form action="" class="layui-form" novalidate>
-            <input type="text" name="title" required  lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入需要的商品">
+            <input type="text" name="title" id="title"required  lay-verify="required" autocomplete="off" class="layui-input" placeholder="请输入需要的商品">
             <button class="layui-btn" lay-submit lay-filter="formDemo">
                 <i class="layui-icon layui-icon-search"></i>
             </button>
@@ -142,7 +142,7 @@
                   mm.request({
                       url: 'http://47.96.111.130:8000/commodity/',
                       method: 'post',
-                      data: {limit:obj.limit, page:obj.curr},
+                      data: {limit:obj.limit, page:obj.curr, search: document.getElementById('title').innerText},
                       success : function(res){
                           listCont.innerHTML = mm.renderHtml(html,res)
                       },
@@ -194,6 +194,34 @@
     })
 
 });
+  layui.use('form', function(){
+      const form = layui.form;
+
+      //监听提交
+      form.on('submit(formDemo)', function(search_data){
+          const laypage = layui.laypage,$ = layui.$,
+              mm = layui.mm;
+
+
+          //模版引擎导入
+          const demo = document.getElementById('demo');
+          const html = demo.innerHTML;
+          const listCont = document.getElementById('list-cont');
+          // console.log(layui.router("#/about.html"))
+          mm.request({
+              url: 'http://47.96.111.130:8000/commodity/',
+              method: 'post',
+              data: {'search':search_data.title},
+              success : function(res){
+                  listCont.innerHTML = mm.renderHtml(html,res);
+              },
+              error: function(res){
+                  console.log(res);
+              }
+          });
+          return false;
+      });
+  });
 </script>
 
 
