@@ -57,7 +57,7 @@
       <workItem from="1571455808806" duration="44000" />
       <workItem from="1571455900171" duration="811000" />
       <workItem from="1571638492281" duration="4930000" />
-      <workItem from="1571708515118" duration="11433000" />
+      <workItem from="1571708515118" duration="12040000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1571728327874</created>
@@ -220,7 +220,14 @@
       <option name="project" value="LOCAL" />
       <updated>1571889585396</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="#debug">
+      <created>1571895854222</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1571895854222</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,17 +249,5 @@
     <MESSAGE value="fix" />
     <MESSAGE value="#debug" />
     <option name="LAST_COMMIT_MESSAGE" value="#debug" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/commodity.html</url>
-          <line>165</line>
-          <properties lambdaOrdinal="-1" />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

@@ -157,16 +157,29 @@
   }
   layui.config({
     base: '/res/static/js/util/' //你存放新模块的目录，注意，不是layui的模块目录
-  }).use(['mm','laypage','jquery'],function(){
-      const laypage = layui.laypage,$ = layui.$,
-     mm = layui.mm;
+  }).use(['mm','laypage','jquery', 'form'],function(){
+      const laypage = layui.laypage, $ = layui.$, mm = layui.mm, form = layui.form;
 
+      //模版引擎导入
+      const demo = document.getElementById('demo');
+      const html = demo.innerHTML;
+      const listCont = document.getElementById('list-cont');
+      form.on('submit(formDemo)', function(search_data){
+          mm.request({
+              url: 'http://47.96.111.130:8000/commodity/',
+              method: 'post',
+              data: {'search':search_data.field.title},
+              success : function(res){
+                  listCont.innerHTML = mm.renderHtml(html,res);
+                  renderpage(res.count,res.page,res.limit,search_data.field.title);
+              },
+              error: function(res){
+                  console.log(res);
+              }
+          });
+          return false;
+      });
 
-    //模版引擎导入
-     const demo = document.getElementById('demo');
-     const html = demo.innerHTML;
-     const listCont = document.getElementById('list-cont');
-     // console.log(layui.router("#/about.html"))
     mm.request({
         url: 'http://47.96.111.130:8000/commodity/',
         method: 'post',
@@ -194,34 +207,6 @@
     })
 
 });
-  layui.use('form', function(){
-      const form = layui.form;
-
-      //监听提交
-      form.on('submit(formDemo)', function(search_data){
-          const laypage = layui.laypage,$ = layui.$,
-              mm = layui.mm;
-
-
-          //模版引擎导入
-          const demo = document.getElementById('demo');
-          const html = demo.innerHTML;
-          const listCont = document.getElementById('list-cont');
-          mm.request({
-              url: 'http://47.96.111.130:8000/commodity/',
-              method: 'post',
-              data: {'search':search_data.field.title},
-              success : function(res){
-                  listCont.innerHTML = mm.renderHtml(html,res);
-                  renderpage(res.count,res.page,res.limit,search_data.field.title);
-              },
-              error: function(res){
-                  console.log(res);
-              }
-          });
-          return false;
-      });
-  });
 </script>
 
 
