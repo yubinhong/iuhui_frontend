@@ -7,6 +7,7 @@
 
 layui.define(['jquery','element','laytpl','carousel','laypage'],function(exports){
 	const $ = layui.$,laytpl = layui.laytpl,element = layui.element,laypage = layui.laypage,carousel = layui.carousel;
+	let loading = 0;
 	const _mm = {
 		request : function(param){
 			const _this = this;
@@ -15,6 +16,12 @@ layui.define(['jquery','element','laytpl','carousel','laypage'],function(exports
 				url    		: param.url    || '',
 				dataType 	: param.type || 'json',
 				data 		: param.data || '',
+				beforeSend  : function(){
+					loading = layer.load(1, {
+						shade: false,
+						time: 60 * 1000
+					})
+				},
 				success 	: function(res){
 					 // 请求成功
 	                if(0 === res.status){
@@ -24,9 +31,11 @@ layui.define(['jquery','element','laytpl','carousel','laypage'],function(exports
 	                else if(1 === res.status){
 	                    typeof param.error === 'function' && param.error(res.msg);
 	                }
+					layer.close(loading);
 				},
 				error       : function(err){
-					 typeof param.error === 'function' && param.error(err.statusText);	
+					typeof param.error === 'function' && param.error(err.statusText);
+					layer.close(loading);
 				}
 			});
 		},
