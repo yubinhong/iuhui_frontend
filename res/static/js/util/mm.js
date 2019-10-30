@@ -18,7 +18,7 @@ layui.define(['jquery','element','laytpl','carousel','laypage'],function(exports
 				data 		: param.data || '',
 				beforeSend  : function(){
 					loading = layer.load(1, {
-						shade: false,
+						shade: true,
 						time: 60 * 1000
 					})
 				},
