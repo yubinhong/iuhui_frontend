@@ -3,13 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c3927705-6fa1-41a0-958d-dda95619db89" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commodity.html" beforeDir="false" afterPath="$PROJECT_DIR$/commodity.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/json/buytoday.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/json/index.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/json/information.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/json/login.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/json/shopcart.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,14 +57,7 @@
       <workItem from="1571455808806" duration="44000" />
       <workItem from="1571455900171" duration="811000" />
       <workItem from="1571638492281" duration="4930000" />
-      <workItem from="1571708515118" duration="19429000" />
-    </task>
-    <task id="LOCAL-00001" summary="init">
-      <created>1571728327874</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1571728327874</updated>
+      <workItem from="1571708515118" duration="19686000" />
     </task>
     <task id="LOCAL-00002" summary="init">
       <created>1571728692127</created>
@@ -409,7 +395,14 @@
       <option name="project" value="LOCAL" />
       <updated>1572428433375</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="#优化">
+      <created>1572511525171</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1572511525173</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,6 +424,7 @@
     <MESSAGE value="fix" />
     <MESSAGE value="#debug" />
     <MESSAGE value="#添加icon" />
-    <option name="LAST_COMMIT_MESSAGE" value="#添加icon" />
+    <MESSAGE value="#优化" />
+    <option name="LAST_COMMIT_MESSAGE" value="#优化" />
   </component>
 </project>
