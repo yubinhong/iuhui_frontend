@@ -53,36 +53,23 @@
           <div class="title">精选</div>
           <div class="list-box">
             <dl>
-                 <dt><a href="javascript:" class="active">综合</a></dt>
-            </dl>
-            <dl>
+                 <dt class="active"><a href="javascript:">综合</a></dt>
                  <dt><a href="javascript:">女装</a></dt>
-            </dl>
-            <dl>
                 <dt><a href="javascript:">家居家装</a></dt>
-            </dl>
-            <dl>
                 <dt><a href="javascript:">数码家电</a></dt>
-            </dl>
-            <dl>
+
                 <dt><a href="javascript:">鞋包配饰</a></dt>
-            </dl>
-            <dl>
+
                 <dt><a href="javascript:">美妆个护</a></dt>
-            </dl>
-            <dl>
+
                 <dt><a href="javascript:">男装</a></dt>
-            </dl>
-            <dl>
+
                 <dt><a href="javascript:">内衣</a></dt>
-            </dl>
-            <dl>
+
                 <dt><a href="javascript:">母婴</a></dt>
-            </dl>
-              <dl>
+
                   <dt><a href="javascript:">食品</a></dt>
-              </dl>
-              <dl>
+
                   <dt><a href="javascript:">运动户外</a></dt>
               </dl>
           </div>
@@ -196,7 +183,7 @@
       });
 
     $('.list-box dt a').on('click',function(){
-        $(this).addClass('active').parent().siblings().removeClass('active');
+        $(this).addClass('active').siblings().removeClass('active');
     })
 
 });
