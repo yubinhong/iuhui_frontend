@@ -196,7 +196,7 @@
       });
 
     $('.list-box dt a').on('click',function(){
-        $(this).addClass('active').siblings().removeClass('active');
+        $(this).addClass('active').parent().siblings().removeClass('active');
     })
 
 });
