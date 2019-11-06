@@ -35,8 +35,6 @@ i{font-style: normal;}
 .header .mallSearch form{height: 38px; line-height: 38px; border-width: 1px 0 1px 1px; border: solid #cfb2f6; position: relative;}
 .header .mallSearch input{height: 38px; line-height: 38px; width: 436px; float: left; border:none; position: relative; z-index: 2; background: none;}
 .header .mallSearch button{width: 58px; height: 38px; line-height: 38px; float: left; background: #cfb2f6; border-radius:0;}
-.header .mallHots{padding: 8px;}
-.header .mallHots a{padding: 0 8px;text-decoration: none;font-size: 13px;float: right;}
 /*end-header*/
 
 .content .layui-fluid{padding: 0;}
