@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3927705-6fa1-41a0-958d-dda95619db89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/commodity.html" beforeDir="false" afterPath="$PROJECT_DIR$/commodity.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/res/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/static/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -68,14 +67,7 @@
       <workItem from="1571638492281" duration="4930000" />
       <workItem from="1571708515118" duration="20329000" />
       <workItem from="1572831853826" duration="104000" />
-      <workItem from="1573025831422" duration="4526000" />
-    </task>
-    <task id="LOCAL-00013" summary="#debug">
-      <created>1571816075233</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1571816075233</updated>
+      <workItem from="1573025831422" duration="4731000" />
     </task>
     <task id="LOCAL-00014" summary="#debug">
       <created>1571816959530</created>
@@ -413,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573031372801</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="#优化">
+      <created>1573031717499</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1573031717499</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
