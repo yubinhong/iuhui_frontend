@@ -2,13 +2,87 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3927705-6fa1-41a0-958d-dda95619db89" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/res/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/res/static/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/res/static/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/buytoday.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/commodity.html" beforeDir="false" afterPath="$PROJECT_DIR$/commodity.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/details.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/information.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/banner1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/buy_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/car-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/details_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/details_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/details_imgbig.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/hot9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/icon_gou.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/img12.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/load_bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/more1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/more2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/more3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/more4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/more5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/new1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/new2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/off-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/paging_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/paging_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/paging_img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img11.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/s_img9.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/sort-arrow.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/tuan_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/tuan_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/tuan_img3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/tuan_img4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/tuan_img5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/tuan_img6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/tuan_img7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/tuan_img_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/us-icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/us_banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/us_icon1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/us_icon2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/us_icon3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/us_img1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/us_img2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/img/us_img3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/res/static/js/util/car.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shopcart.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,21 +141,8 @@
       <workItem from="1571638492281" duration="4930000" />
       <workItem from="1571708515118" duration="20329000" />
       <workItem from="1572831853826" duration="104000" />
-      <workItem from="1573025831422" duration="4731000" />
-    </task>
-    <task id="LOCAL-00014" summary="#debug">
-      <created>1571816959530</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1571816959530</updated>
-    </task>
-    <task id="LOCAL-00015" summary="#debug">
-      <created>1571822485688</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1571822485688</updated>
+      <workItem from="1573025831422" duration="5064000" />
+      <workItem from="1573116652240" duration="4604000" />
     </task>
     <task id="LOCAL-00016" summary="#debug">
       <created>1571822585317</created>
@@ -412,7 +473,21 @@
       <option name="project" value="LOCAL" />
       <updated>1573031717499</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="#优化">
+      <created>1573032067414</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1573032067414</updated>
+    </task>
+    <task id="LOCAL-00064" summary="#优化">
+      <created>1573032127321</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1573032127321</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
