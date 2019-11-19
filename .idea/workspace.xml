@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3927705-6fa1-41a0-958d-dda95619db89" name="Default Changelist" comment="">
+    <list default="true" id="c3927705-6fa1-41a0-958d-dda95619db89" name="Default Changelist" comment="#优化">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -75,14 +75,7 @@
       <workItem from="1571708515118" duration="20329000" />
       <workItem from="1572831853826" duration="104000" />
       <workItem from="1573025831422" duration="5064000" />
-      <workItem from="1573116652240" duration="8802000" />
-    </task>
-    <task id="LOCAL-00017" summary="#debug">
-      <created>1571822678316</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1571822678316</updated>
+      <workItem from="1573116652240" duration="9881000" />
     </task>
     <task id="LOCAL-00018" summary="#debug">
       <created>1571823180165</created>
@@ -420,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1573196431676</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="#优化">
+      <created>1573285101899</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1573285101900</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
